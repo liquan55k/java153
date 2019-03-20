@@ -1,0 +1,19 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /dome1
+
+person:
+  name: 诸葛恪
+  age: 18
+  content: "自我介紹，姓名：${person.name}，年齡：${person.age}"
+
+
+spring:
+  profiles:
+    active: dev
+  mvc:
+    view:
+      prefix: /myjsp/
+      suffix: .jsp
+
