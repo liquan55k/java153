@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class test {
         @RequestMapping("/test1")
         public void test1(){
-            System.out.println("你啥都烦");
+            System.out.println("现在走");
         }
 
 }
