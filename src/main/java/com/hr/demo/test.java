@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class test {
         @RequestMapping("/test1")
         public void test1(){
-            System.out.println("第三次提交");
+            System.out.println("第四次提交");
             System.out.println("现在走，这是本王最后的仁慈");
         }
 
